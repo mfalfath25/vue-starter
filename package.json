@@ -9,6 +9,9 @@
     "preview": "vite preview",
     "prepare": "husky"
   },
+  "lint-staged": {
+    "*.{js,ts,vue}": "eslint --fix"
+  },
   "dependencies": {
     "vue": "^3.4.21"
   },
